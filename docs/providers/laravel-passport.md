@@ -1,6 +1,6 @@
 # Laravel Passport
 
-[Source Code](https://github.com/nuxt-community/auth-module/blob/dev/lib/providers/laravel.passport.js)
+[Source Code](https://github.com/nuxt-community/auth-module/blob/master/lib/providers/laravel.passport.js)
 
 ## Usage
 
@@ -26,5 +26,5 @@ this.$auth.loginWith('laravel.passport')
 
 ### Obtaining `url`, `client_id` and `client_secret`
 
-These options are **REQUIRED**. The `url` is the location of your Laravel application. To obtain the `client_id` and `client_secret`, create a new client app in  your [Laravel app](https://laravel.com/docs/5.6/passport#managing-clients).
+These options are **REQUIRED**. The `url` is the location of your Laravel application. To obtain the `client_id` and `client_secret`, create a new client app in  your [Laravel app](https://laravel.com/docs/6.0/passport#managing-clients).
 
